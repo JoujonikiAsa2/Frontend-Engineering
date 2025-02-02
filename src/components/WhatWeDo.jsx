@@ -5,7 +5,7 @@ import SectionTitle from "../sharedComponents/SectionTitle";
 const WhatWeDo = () => {
   return (
     <div className=" lg:max-w-7xl xl:max-w-[1920] mx-auto lg:pt-32">
-        <SectionTitle title="What We Do" />
+        <SectionTitle title="What We Do" align="center" textColor="#004464"/>
       <div className="w-full lg:h-[435px] flex flex-col lg:flex-row justify-center">
         <div className="lg:w-[366px] bg-[#A6E2E2] p-10 text-[#242424]">
           <h3 className="text-2xl leading-9 tracking-tighter-[1%]">Bulipe Tech is a dynamic and innovative company</h3>

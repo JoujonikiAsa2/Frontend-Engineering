@@ -1,8 +1,16 @@
+import SectionTitle from "../sharedComponents/SectionTitle";
 
 const OurPrograms = () => {
     return (
         <div>
-            OurProgram
+            <SectionTitle title="Our Programs" />
+            <div>
+                <div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
         </div>
     );
 };
