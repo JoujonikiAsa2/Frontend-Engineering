@@ -12,22 +12,26 @@ import Testimonials from "../../components/Testimonials";
 import WhatWeDo from "../../components/WhatWeDo";
 
 const Home = () => {
-    return (
-        <div>
-            <Header/>
-            <Navbar/>
-            <Banner/>
-            <WhatWeDo/>
-            <HowWork/>
-            <OurPrograms/>
-            <OurCommunity/>
-            <OurPartners/>
-            <Testimonials/>
-            <LatestNews/>
-            <Contacts/>
-            <Footer/>
+  return (
+    <div>
+      <Header />
+      <Navbar />
+      <div className="space-y-20 lg:space-y-32">
+        <div className="lg:pb-28">
+          <Banner />
         </div>
-    );
+        <WhatWeDo />
+        <HowWork />
+        <OurPrograms />
+        <OurCommunity />
+        <OurPartners />
+        <Testimonials />
+        <LatestNews />
+        <Contacts />
+        <Footer />
+      </div>
+    </div>
+  );
 };
 
 export default Home;
