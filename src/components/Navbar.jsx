@@ -34,7 +34,7 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center h-[110px] md:h-[86pz] lg:max-w-7xl xl:max-w-[1920] mx-auto">
       <div>
-        <img src={logo} alt="" className="h-[102px]" />
+        <img src={logo} alt="" className="h-[41px] w-[173px]" />
       </div>
       <div className="hidden lg:block">
         <ul className="text-decoration-none flex  justify-between item-center gap-4">
