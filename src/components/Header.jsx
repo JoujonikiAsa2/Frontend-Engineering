@@ -8,14 +8,14 @@ const Header = () => {
         <div className="border border-[#006444] rounded-lg h-fit p-1">
           <p>
             <span className="text-[#FF751E]">Scholarship</span>{" "}
-            <span className="text-[#006444]">
+            <span className="text-[#004464]">
               on all <br />
               of our programs
             </span>
           </p>
         </div>
         <div>
-          <p>
+          <p className="text-[#004464]">
             Exclusively for the physically challenged, and third-gender
             communities!
           </p>
