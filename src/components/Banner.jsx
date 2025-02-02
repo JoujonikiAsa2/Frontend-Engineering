@@ -28,9 +28,9 @@ const cards = [
 ];
 const Banner = () => {
   return (
-    <div className=" flex flex-col gap-20">
+    <div className="w-full">
       <div className="bg-[#004464] min-h-screen p-6 lg:h-[764px] lg:relative">
-        <div className="h-full lg:max-w-7xl xl:max-w-[1920px] mx-auto flex flex-col-reverse lg:flex-row  justify-between items-center">
+        <div className="h-full lg:w-[1170px]  mx-auto flex flex-col-reverse lg:flex-row  justify-between items-center">
           <div className="lg:w-[45%]  text-white">
             <h4 className="text-lg">ELEVATING</h4>
             <h1 className="text-[54px] leading-[65px]">
@@ -45,9 +45,9 @@ const Banner = () => {
               <br /> of Bangladesh.
             </p>
             <div className="flex gap-6">
-              <Button btnText="Sign Up" icon={<UserPlus size={18} />} />
-              <button className="text-[#F15B2D] w-fit px-3 py-1 rounded-full flex gap-3 items-center border-2 border-[#F15B2D] bg-transparent text-white">
-                Enroll Now <Info size={18} />
+              <Button btnText="Enroll Now" bg="#F15B2D" icon={<UserPlus size={18} />} />
+              <button className="text-[#F15B2D] w-fit px-3 py-1 rounded-full flex gap-3 items-center border-2 border-[#F15B2D] bg-transparent">
+                Read More <Info size={18} />
               </button>
             </div>
           </div>

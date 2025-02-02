@@ -50,9 +50,9 @@ const OurPartners = () => {
               textColor="#004464"
             />
             <div className="flex flex-col lg:flex-row w-full gap-8">
-              {tabs.map((tab) => (
+              {tabs.map((tab, index) => (
                 <div key={tab.key} className="">
-                  <h5>{tab.text}</h5>
+                  <h5 className={`text-[16px] font-semibold leading-4 ${index === 0 && "text-[#29BDBF]"}`}>{tab.text}</h5>
                 </div>
               ))}
             </div>
