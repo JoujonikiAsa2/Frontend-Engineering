@@ -32,7 +32,7 @@ const items = [
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <div className="flex justify-between items-center h-[110px] md:h-[86pz] lg:max-w-7xl xl:max-w-[1920] mx-auto">
+    <div className="flex justify-between items-center h-[110px] md:h-[86pz] lg:max-w-7xl xl:max-w-[1920px] mx-auto">
       <div>
         <img src={logo} alt="" className="h-[41px] w-[173px]" />
       </div>

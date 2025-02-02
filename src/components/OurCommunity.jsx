@@ -16,7 +16,7 @@ const items = [
 const OurCommunity = () => {
   return (
     <div className="bg-[#000000]">
-      <div className="lg:max-w-7xl xl:max-w-[1920] mx-auto py-16 px-4">
+       <div className="lg:w-[1170px] mx-auto lg:pt-20">
         <SectionTitle title="Our Community" align="start" textColor="white" />
         <div className="max-w-[572px]">
           <p className="text-white text-base leading-6">
@@ -25,7 +25,7 @@ const OurCommunity = () => {
             opportunities across 23 countries worldwide.
           </p>
         </div>
-        <div className="flex flex-col lg:flex-row justify-center mt-16">
+        <div className="flex flex-col lg:flex-row justify-center mt-16 pb-20 lg:w-7xl">
           {items.map((item, index) => (
             <div key={index} className={`border-b-white border border-[#004464] lg:w-[300px] text-white p-10 ${index === 0 && "lg:rounded-l-lg"} ${index === 2 && "lg:rounded-r-lg"}`}>
               <h1 className="text-[60px] leading-[60px]">{item.total}+</h1>

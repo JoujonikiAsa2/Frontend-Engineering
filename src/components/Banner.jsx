@@ -30,7 +30,7 @@ const Banner = () => {
   return (
     <div className=" flex flex-col gap-20">
       <div className="bg-[#004464] min-h-screen p-6 lg:h-[764px] lg:relative">
-        <div className="h-full lg:max-w-7xl xl:max-w-[1920] mx-auto flex flex-col-reverse lg:flex-row  justify-between items-center">
+        <div className="h-full lg:max-w-7xl xl:max-w-[1920px] mx-auto flex flex-col-reverse lg:flex-row  justify-between items-center">
           <div className="lg:w-[45%]  text-white">
             <h4 className="text-lg">ELEVATING</h4>
             <h1 className="text-[54px] leading-[65px]">
